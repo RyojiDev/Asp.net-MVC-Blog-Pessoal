@@ -113,6 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CategoriasDeArtigoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Data\Contexto\BlogPessoalContexto.cs" />
     <Compile Include="Data\Mapeamento\CategoriaDeArtigoMap.cs" />
@@ -147,6 +148,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\CategoriaDeArtigo\" />
+    <Folder Include="Views\CategoriasDeArtigo\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
